@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Best Calc EVER!</h1>
+    <div class="container">
+        <div class="input-container">
+            <input class="input" type="text" value="Predefined Value" readonly>
+        </div>
+
+        <div class="first-row">
+            <button id="clearBtn">AC</button>
+            <button id="open-brac">(</button>
+            <button id="close-brac">)</button>
+            <button id="division" onclick="divBtn()">÷</button>
+        </div>
+
+        <div class="second-row">
+            <button class="num-btn" id="seven">7</button>
+            <button class="num-btn" id="eight">8</button>
+            <button class="num-btn" id="nine">9</button>
+            <button id="multiplication">*</button>
+        </div>
+
+        <div class="third-row">
+            <button class="num-btn" id="four">4</button>
+            <button class="num-btn" id="five">5</button>
+            <button class="num-btn" id="six">6</button>
+            <button id="subtraction">-</button>
+        </div>
+
+        <div class="fourth-row">
+            <button class="num-btn" id="one">1</button>
+            <button class="num-btn" id="two">2</button>
+            <button class="num-btn" id="three">3</button>
+            <button id="addition">+</button>
+        </div>
+
+        <div class="fifth-row">
+            <button class="num-btn" id="zero">0</button>
+            <button id="decimal">.</button>
+            <button id="delBtn">.</button>
+            <button id="equals">=</button>
+        </div>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
